@@ -1,3 +1,5 @@
+[![Haskell CI](https://github.com/Ryu-Okamoto/trial-cabal/actions/workflows/haskell.yml/badge.svg)](https://github.com/Ryu-Okamoto/trial-cabal/actions/workflows/haskell.yml)
+
 # Usage
 Required GHC and Cabal.  
 
