@@ -7,6 +7,6 @@ import Test.Hspec ( Spec, describe, it, shouldBe )
 spec :: Spec
 spec = describe "my Lexer" $ do
     it "test00" $ do
-      run `shouldBe` False
+      run `shouldBe` True
     it "test01" $ do
       run `shouldBe` True

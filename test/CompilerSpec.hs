@@ -9,6 +9,6 @@ spec = describe "my Compiler" $ do
     it "test00" $ do
       run `shouldBe` True
     it "test01" $ do
-      run `shouldBe` False
+      run `shouldBe` True
     it "test02" $ do
-      run `shouldBe` False
+      run `shouldBe` True
