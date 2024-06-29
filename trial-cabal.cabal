@@ -1,4 +1,4 @@
-cabal-version:      3.0
+cabal-version:      3.10
 name:               trial-cabal
 
 -- The package version.
@@ -59,7 +59,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.14
+    build-depends:    base ^>=4.18.2
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -82,7 +82,7 @@ executable trial-cabal
 
     -- Other library packages from which modules are imported.
     build-depends:
-        base ^>=4.14,
+        base ^>=4.18.2,
         trial-cabal
 
     -- Directories containing source files.
@@ -120,7 +120,7 @@ test-suite trial-cabal-test
 
     -- Test dependencies.
     build-depends:
-        base ^>=4.14,
+        base ^>=4.18.2,
         trial-cabal,
         hspec,
         hspec-contrib,
