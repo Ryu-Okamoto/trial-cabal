@@ -71,7 +71,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.18.2.1
+    build-depends:    base ^>=4.14
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -94,7 +94,7 @@ executable trial-cabal
 
     -- Other library packages from which modules are imported.
     build-depends:
-        base ^>=4.18.2.1,
+        base ^>=4.14,
         trial-cabal
 
     -- Directories containing source files.
@@ -132,7 +132,7 @@ test-suite trial-cabal-test
 
     -- Test dependencies.
     build-depends:
-        base ^>=4.18.2.1,
+        base ^>=4.14,
         trial-cabal,
         hspec,
         hspec-contrib,
